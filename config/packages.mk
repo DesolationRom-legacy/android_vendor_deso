@@ -2,6 +2,7 @@
 PRODUCT_PACKAGES += \
     Eleven \
 	LatinIME \
+	LockClock \
 	SoundRecorder \
 	BluetoothExt
 
