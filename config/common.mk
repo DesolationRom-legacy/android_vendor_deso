@@ -54,10 +54,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/deso/prebuilt/common/bin/otasigcheck.sh:system/bin/otasigcheck.sh
 
-# Copy latinime for gesture typing
-PRODUCT_COPY_FILES += \
-    vendor/deso/prebuilt/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
-
 # Additional packages
 -include vendor/deso/config/packages.mk
 
