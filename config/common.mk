@@ -41,6 +41,11 @@ PRODUCT_COPY_FILES += \
     vendor/deso/prebuilt/common/etc/init.d/91customdensity:system/etc/init.d/91customdensity \
     vendor/deso/prebuilt/common/etc/init.d/01firstbootnotify:system/etc/init.d/01firstbootnotify
 
+# Bring in camera effects
+PRODUCT_COPY_FILES +=  \
+    vendor/deso/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/deso/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+
 #Add System rewriteable/read only scripts
 PRODUCT_COPY_FILES += \
     vendor/deso/prebuilt/common/bin/sysrw:system/bin/sysrw  \
