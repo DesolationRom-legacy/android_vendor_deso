@@ -1,10 +1,7 @@
 # Required packages
 PRODUCT_PACKAGES += \
     BluetoothExt \
-    Calendar \
-    Eleven \
 	LatinIME \
-	LockClock \
 	SoundRecorder
 
 # Other packages
