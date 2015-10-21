@@ -34,6 +34,10 @@ ifndef changelog_date
 	 changelog_date := $(shell date -d "2 weeks ago" '+%m-%d-%Y')
 endif
 
+ifdef CHANGELOG_DATE_OVERRIDE
+	 changelog_date := $(CHANGELOG_DATE_OVERRIDE)
+endif
+
 DESO_VERSION := $(ROM_BUILDTYPE)
 
 # Apply it to build.prop
